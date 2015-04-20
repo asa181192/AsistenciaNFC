@@ -11,9 +11,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 var sql = mysql.createConnection({
   host     : 'localhost',
-  user     : 'root',
-  password : 'asa181192',
-  database : 'asistencianfc',
+  user     : '********,
+  password : '********',
+  database : '********',
   insecureAuth: true
 });
 var routes = require('./routes/ruta.js') (app,sql) ; //Rutas para accesar dentro del serivdor 
